@@ -15,7 +15,7 @@ class PlaceDetailsPage extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
+        child: ListView(
           children: [
             Image.network(place.imageUrl),
             SizedBox(height: 16),
